@@ -13,7 +13,7 @@ public class TaskThree {
 		// км. Вычислите и выведите на экран сколько вам нужно заплатить за топливо для
 		// поездки
 
-		try (Scanner sc = new Scanner(System.in)) {
+		Scanner sc = new Scanner(System.in);
 
 			System.out.println("Enter fuel price for 1 liter ($) and press (Enter)");
 			double priceForOneLiter = sc.nextDouble();
@@ -30,5 +30,3 @@ public class TaskThree {
 		}
 
 	}
-
-}

@@ -17,7 +17,7 @@ public class TaskThree {
 
 			System.out.println("Enter fuel price for 1 liter ($) and press (Enter)");
 			double priceForOneLiter = sc.nextDouble();
-			System.out.println("Enter your consumption (l) and press (Enter)");
+			System.out.println("Enter your consumption per 100 litres (l) and press (Enter)");
 			double consumption = sc.nextDouble();
 			System.out.println("Enter your distance (km) and press (Enter)");
 			double distance = sc.nextDouble();

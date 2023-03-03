@@ -13,20 +13,20 @@ public class TaskSecond {
 
 		int floor;
 		int entrance;
-		int apartamentNumber;
-		int maxApartamentNumber = 4 * 9 * 5;
+		int apartmentNumber;
+		int maxApartmentNumber = 4 * 9 * 5;
 
 		Scanner scan = new Scanner(System.in);
 
 		System.out.println("Введите номер вашей квартиры:");
-		apartamentNumber = scan.nextInt();
+		apartmentNumber = scan.nextInt();
 
-		if (apartamentNumber > maxApartamentNumber || apartamentNumber <= 0) {
-			System.out.println("Квартиры под номером " + apartamentNumber
-					+ " в нашем доме нет. Пожалуйста, напишите номер квартиры от 1 до " + maxApartamentNumber + ".");
+		if (apartmentNumber > maxApartmentNumber || apartmentNumber <= 0) {
+			System.out.println("Квартиры под номером " + apartmentNumber
+					+ " в нашем доме нет. Пожалуйста, напишите номер квартиры от 1 до " + maxApartmentNumber + ".");
 		} else {
-			entrance = (apartamentNumber - 1) / (4 * 9) + 1;
-			floor = ((apartamentNumber - 1) % (4 * 9) / 4 + 1);
+			entrance = (apartmentNumber - 1) / (4 * 9) + 1;
+			floor = ((apartmentNumber - 1) % (4 * 9) / 4 + 1);
 			System.out.println("Квартира находится в - " + entrance + " подъезде, на - " + floor + " этаже.");
 		}
 	}
